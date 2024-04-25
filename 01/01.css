@@ -1,6 +1,6 @@
 article {
     width: 100%;
-    display: flex-col;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@ div {
     align-items: center;
     font-size: large;
     font-weight: bold;
-    padding: 10px;
+    margin: 10px 0;
 }
 
 p {
@@ -30,13 +30,13 @@ p {
   }
 
 button {
-    width: 100px;
     height: 40px;
     padding: 10px;
     background-color: blue;
     color: white;
     border: 0px;
     border-radius: 10px;
+
     margin: 10px;
   }
 
