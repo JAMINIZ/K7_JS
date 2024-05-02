@@ -1,0 +1,30 @@
+#btDiv6 {
+    height: 300px;
+    flex-direction: column;
+}
+
+.div6 {
+    display: flex;
+}
+
+.div7 {
+    display: flex;
+}
+
+.div6, .div7{
+    background-color: white;
+    border: none;
+    margin: 10px 20px;
+}
+
+.div6 {
+    width: 100%;
+}
+
+.div7 {
+    width: 50%;
+}
+
+#text1, #text2 {
+    width: 100%;
+}

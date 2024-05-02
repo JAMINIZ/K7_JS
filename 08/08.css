@@ -1,0 +1,14 @@
+#txt1 {
+    width: 70%;
+    justify-items: center;
+    font-size: large;
+    text-align: center;
+}
+
+.bt {
+    width: 10%;
+}
+
+.bt2 {
+    width: 50%;
+}

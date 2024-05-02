@@ -24,7 +24,9 @@ document.addEventListener("DOMContentLoaded", () => {
             label1.value = "℉";
             label2.value = "℃";
         }
+    });
 
+    sel2.addEventListener("change", ()=>{
         if (sel2.value == "℉") {
             sel1.value = "℃";
             label1.value = "℃";
@@ -35,6 +37,5 @@ document.addEventListener("DOMContentLoaded", () => {
             label1.value = "℉";
             label2.value = "℃";
         }
-
-    });
+    })
 });
